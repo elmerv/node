@@ -2,7 +2,7 @@
 var express = require('express');
 var app = new express();
 
-var port = process.env.PORT || 8080;
+var port = 8080;
 
 const User = require('./user');
 const rtsIndex = require('./routes/index.router');
